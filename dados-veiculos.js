@@ -1,0 +1,103 @@
+/**
+ * Arquivo gerado automaticamente por `scripts/gerar-catalogo.js`
+ * a partir da leitura das pastas de veículos e arquivos .txt.
+ * Não edite valores manualmente sem atualizar os arquivos de origem.
+ */
+window.BRAZIL_CAR_DATA = {
+  "geradoEm": "2026-10-29T17:34:49.681Z",
+  "pastaBase": "catalogo",
+  "empresa": {
+    "nome": "Brazil Car",
+    "subtitulo": "Locadora de Veículos",
+    "cidade": "Nova Serrana – MG",
+    "whatsappFormatado": "+55 37 9665-2007",
+    "whatsappNumero": "553796652007"
+  },
+  "categoriasDisponiveis": [
+    "Todos",
+    "Automáticos",
+    "Econômicos",
+    "Trabalho",
+    "Viagem",
+    "Família",
+    "Manuais",
+    "Mais espaço"
+  ],
+  "avisosExtracao": [
+    "Subpasta \"1\": A fotografia na pasta exibe um Hyundai HB20 branco (placa promocional \"HB20 5 anos\"), enquanto o arquivo descrição.txt documenta \"HB20 2025 / AUTOMÁTICO / 240,00 A DIÁRIA\".",
+    "O arquivo \"catalogo/2/DESCRIÇÃO.txt\" está vazio (0 bytes). Dados ausentes tratados como \"Sob consulta\".",
+    "Subpasta \"2\": O arquivo DESCRIÇÃO.txt na subpasta 2 está vazio (0 bytes). Pela análise visual da fotografia real fornecida (images.jpg), o veículo é identificado como um Volkswagen Polo (emblema VW e placa \"Polo\" visíveis). Ano, transmissão e valor de locação foram omitidos por não estarem documentados."
+  ],
+  "veiculos": [
+    {
+      "id": "veiculo-1",
+      "slug": "hyundai-hb20-2025",
+      "ordem": 1,
+      "pastaOrigem": "catalogo/1",
+      "arquivoTexto": "catalogo/1/descrição.txt",
+      "textoOriginal": "HB20 2025 \nAUTOMÁTICO \n240,00 A DIÁRIA",
+      "nome": "Hyundai HB20",
+      "nomeDocumento": "HB20 2025",
+      "marca": "Hyundai",
+      "modelo": "HB20",
+      "versao": null,
+      "ano": "2025",
+      "transmissao": "Automático",
+      "lugares": null,
+      "carroceria": "Hatch compacto",
+      "caracteristicasExtras": [],
+      "precoValor": 240,
+      "precoFormatado": "R$ 240,00",
+      "unidadeCobranca": "a diária",
+      "textoPrecoOriginal": "240,00 A DIÁRIA",
+      "dadosIncompletos": false,
+      "motivoIncompleto": null,
+      "observacaoCatalogo": "A fotografia na pasta exibe um Hyundai HB20 branco (placa promocional \"HB20 5 anos\"), enquanto o arquivo descrição.txt documenta \"HB20 2025 / AUTOMÁTICO / 240,00 A DIÁRIA\".",
+      "imagemCapa": "catalogo/1/7e3dbaixd8if3rzyyjraxopkl.jpg",
+      "imagens": [
+        "catalogo/1/7e3dbaixd8if3rzyyjraxopkl.jpg"
+      ],
+      "altFoto": "Hyundai HB20 branco em ângulo frontal três quartos",
+      "categorias": [
+        "Automáticos",
+        "Econômicos",
+        "Trabalho",
+        "Viagem"
+      ]
+    },
+    {
+      "id": "veiculo-2",
+      "slug": "volkswagen-polo",
+      "ordem": 2,
+      "pastaOrigem": "catalogo/2",
+      "arquivoTexto": "catalogo/2/DESCRIÇÃO.txt",
+      "textoOriginal": null,
+      "nome": "Volkswagen Polo",
+      "nomeDocumento": null,
+      "marca": "Volkswagen",
+      "modelo": "Polo",
+      "versao": null,
+      "ano": null,
+      "transmissao": null,
+      "lugares": null,
+      "carroceria": "Hatch compacto",
+      "caracteristicasExtras": [],
+      "precoValor": null,
+      "precoFormatado": null,
+      "unidadeCobranca": null,
+      "textoPrecoOriginal": null,
+      "dadosIncompletos": true,
+      "motivoIncompleto": "Arquivo de descrição (.txt) está vazio (0 bytes). Valor, ano e câmbio sob consulta.",
+      "observacaoCatalogo": "O arquivo DESCRIÇÃO.txt na subpasta 2 está vazio (0 bytes). Pela análise visual da fotografia real fornecida (images.jpg), o veículo é identificado como um Volkswagen Polo (emblema VW e placa \"Polo\" visíveis). Ano, transmissão e valor de locação foram omitidos por não estarem documentados.",
+      "imagemCapa": "catalogo/2/images.jpg",
+      "imagens": [
+        "catalogo/2/images.jpg"
+      ],
+      "altFoto": "Volkswagen Polo prata em ângulo frontal três quartos",
+      "categorias": [
+        "Econômicos",
+        "Trabalho"
+      ]
+    }
+  ]
+};
